@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <!-- Fonts -->
+        <link href="/fonts/gandhi_serif/regular/stylesheet.css" rel="stylesheet"/>
+        <link href="/fonts/gandhi_serif/bold/stylesheet.css" rel="stylesheet"/>
+        <link href="/fonts/gandhi_serif/italic/stylesheet.css" rel="stylesheet"/>
+        <link href="/fonts/gandhi_serif/bold_italic/stylesheet.css" rel="stylesheet"/>
+        <!-- CSS -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css" rel="stylesheet"/>
+        <link href="/css/main.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div id="container">
+            <div id="sidebar">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="/">
+                                =
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/coldmountain/index.html">
+                                &lt;
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/fractals/index.html">
+                                &gt;
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="content">
+                <link href="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/2.18.2/mediaelementplayer.min.css" rel="stylesheet"/>
+                <div class="video-container">
+                    <div>
+                        <div class="aspect-16-9 quality-720p">
+                            <video poster="decode.png" src="decode.mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js">
+                </script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/2.18.2/mediaelement-and-player.min.js">
+                </script>
+                <script>
+                    $(document).ready(function(){
+                $('video').mediaelementplayer();
+});
+                </script>
+            </div>
+        </div>
+    </body>
+</html>
