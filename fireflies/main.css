@@ -4,7 +4,12 @@ html, body {
     padding: 0;
 }
 
+div#content {
+    position: relative;
+}
+
 .fireflies-canvas {
+    position: absolute;
     background-color: #000;
     display: block;
     width: 100%;
